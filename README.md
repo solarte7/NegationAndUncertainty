@@ -16,7 +16,7 @@ The proposed approach uses two deep learning methods to perform negation and spe
   <li> <strong> CRF layer:</strong> this layer uses an implementation of the CRF algorithm to improve the predictions for each label. The CRF algorithm considers correlations between other labels. 
   
   </ul>
-  </br> </br> </br> </br>
+  </br> </br> 
  <li> <strong> Bidirectional Encoder Representation for Transformers (BERT): </strong>  We use the pre-trained BERT model fine-tuning with a classification layer on top.  We use Multilingual BERT as contextualized embedding. This process consists of three steps: Tokenization, BERT Processing, and Classification & Post-processing. The directory BERT-based contains the implementation for this method.</br> </br> 
  <ul>
   <li> <strong>Tokenization:</strong> the goal in this step is to take as input a raw text sentence and tokenize it using a WordPiece Tokenization method . For each word in the sentence, this method decides to keep the whole word or to split it in a set of sub-words. 
@@ -26,7 +26,7 @@ The proposed approach uses two deep learning methods to perform negation and spe
  <li><strong>Classification & Post-Processing:</strong> In this step, the approach takes as input the predicted BERT representations  and fed them into the softmax function.
  </ul>
 </ul>
-
+</br> </br>
 <h3> Datasets</h3>
 We use three datasets to evaluate the proposed approach for negation and speculation detection. NUBES [3]  and IULA [4] are two public corpus available for the Spanish language, and the third dataset is an in-house annotated corpus with real-life data of cancer patients. 
  </br> </br> 
