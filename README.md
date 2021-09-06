@@ -6,7 +6,7 @@ The approach addresses negation and speculation detection as a sequence-labeling
 
 The proposed approach uses two deep learning methods to perform negation and speculation detection from clinical text written in Spanish: BILSTM and BERT.
  <ul>
- <li> <strong>Bidirectional Long Short memory (BiLSTM):</strong> The first method that we explore to detect negation and speculation is BILSTM with a CRF layer (BiLSTM-CRF) neural net. This method consist of three layers: Embedding layer, BiLSTM layer, and CRF layer.
+ <li> <strong>Bidirectional Long Short memory (BiLSTM):</strong> The first method that we explore to detect negation and speculation is BILSTM with a CRF layer (BiLSTM-CRF) neural net. This method consist of three layers: Embedding layer, BiLSTM layer, and CRF layer. 
   <ul>
    </br>
     <li><strong> Embedding layer:</strong> This layer allows the approach to automatically represent text features using dense vector representations. The approach    uses two types of embeddings biomedical embeddings and clinical embeddings. Biomedical embeddings for the Spanish language can be download from <a href= "https://zenodo.org/record/3626806#.X_w5mXUzY0Q"> Zenodo. </a> Clinical embeddings are available only after an evaluation of the Hospital ethics committee.
