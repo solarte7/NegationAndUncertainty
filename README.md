@@ -6,7 +6,7 @@ The approach addresses negation and speculation detection as a sequence-labeling
 
 The proposed approach uses two deep learning methods to perform negation and speculation detection from clinical text written in Spanish: BILSTM and BERT.
  <ul>
- <li> <strong>Bidirectional Long Short memory (BiLSTM):</strong> The first method that we explore to detect negation and speculation is BILSTM with a CRF layer (BiLSTM-CRF) neural net. This method consist of three layers: Embedding layer, BiLSTM layer, and CRF layer.
+ <li> <strong>Bidirectional Long Short memory (BiLSTM):</strong> The first method that we explore to detect negation and speculation is BILSTM with a CRF layer (BiLSTM-CRF) neural net. This method consist of three layers: Embedding layer, BiLSTM layer, and CRF layer. The directory BiLSTM-based contains the implementation for this method.
   <ul>
    </br>
     <li><strong> Embedding layer:</strong> This layer allows the approach to automatically represent text features using dense vector representations. The approach    uses two types of embeddings biomedical embeddings and clinical embeddings. Biomedical embeddings for the Spanish language can be download from <a href= "https://zenodo.org/record/3626806#.X_w5mXUzY0Q"> Zenodo. </a> Clinical embeddings are available only after an evaluation of the Hospital ethics committee.
@@ -17,7 +17,7 @@ The proposed approach uses two deep learning methods to perform negation and spe
   
   </ul>
   </br> </br> </br> </br>
- <li> <strong> Bidirectional Encoder Representation for Transformers (BERT): </strong>  We use the pre-trained BERT model fine-tuning with a classification layer on top.  We use Multilingual BERT as contextualized embedding. This process consists of three steps: Tokenization, BERT Processing, and Classification & Post-processing. </br> </br> 
+ <li> <strong> Bidirectional Encoder Representation for Transformers (BERT): </strong>  We use the pre-trained BERT model fine-tuning with a classification layer on top.  We use Multilingual BERT as contextualized embedding. This process consists of three steps: Tokenization, BERT Processing, and Classification & Post-processing. The directory BERT-based contains the implementation for this method.</br> </br> 
  <ul>
   <li> <strong>Tokenization:</strong> the goal in this step is to take as input a raw text sentence and tokenize it using a WordPiece Tokenization method . For each word in the sentence, this method decides to keep the whole word or to split it in a set of sub-words. 
    </br> </br> 
