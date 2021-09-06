@@ -1,11 +1,11 @@
 # Negation And Speculation Detection from clinical text written in Spanish
-The detection of speculation and negation in medical texts is paramount as otherwise extracted information can be incorrectly identified as real or factual events.
-Speculation and negation detection is commonly divided into two sub-tasks: <strong>cue identification</strong> and <strong>scope recognition </strong>. Cues are words or terms that express negation (e.g, not, nothing, negative) or speculation (e.g., possible, probable, suggest). The scope is the text fragment affected by the corresponding cue in a sentence.<br><br>
-This repository contains a deep learning-based approach for speculation and negation detection from clinical texts written in Spanish. The approach addresses negation and speculation detection as a sequence-labeling task, where each token in a sentence is classified as being part of the cue or the scope. This approach recognizes cues and scopes using the BIO tagging format.
+This repository contains a deep learning-based approach for speculation and negation detection from clinical texts written in Spanish. 
+Speculation and negation detection is commonly divided into two sub-tasks: <strong>cue identification</strong> and <strong>scope recognition </strong>. Cues are words or terms that express negation (e.g, not, nothing, negative) or speculation (e.g., possible, probable, suggest). The scope is the text fragment affected by the corresponding cue in a sentence.<br>
 
-The proposed approach explores two deep learning methods to perform negation and speculation detection from clinical text written in Spanish: 
+The approach addresses negation and speculation detection as a sequence-labeling task, where each token in a sentence is classified as being part of the cue or the scope. This approach recognizes cues and scopes using the <strong>BIO</strong> tagging format.<br>
+
+The proposed approach uses two deep learning methods to perform negation and speculation detection from clinical text written in Spanish: 
  <ul>
-
  <li> <strong>Bidirectional Long Short memory (BiLSTM):</strong> The first method that we explore to detect negation and speculation is BILSTM with a CRF layer (BiLSTM-CRF) neural net. This method consist of three layers: Embedding layer, BiLSTM layer, and CRF layer.
   <ul>
    </br>
