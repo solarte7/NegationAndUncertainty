@@ -7,6 +7,20 @@ This repository contains a deep learning-based approach for speculation and nega
 The proposed approach explores two deep learning methods to perform negation and speculation detection from clinical text written in Spanish: 
  <ul>
 
- <li> <strong>Bidirectional Long Short memory (BiLSTM): </strong>
- <li> <strong> Bidirectional Encoder Representation for Transformers (BERT): <strong>  
+ <li> <strong>Bidirectional Long Short memory (BiLSTM):</strong> The first method that we explore to detect negation and speculation is BILSTM with a CRF layer (BiLSTM-CRF) neural net. This method consist of three layers: Embedding layer, BiLSTM layer, and CRF layer.
+ <li> <strong> Bidirectional Encoder Representation for Transformers (BERT): </strong>  This process consists of three steps: Tokenization, BERT Processing, and Classification \& Post-processing.
 </ul>
+
+<strong>References:</strong>
+</br> </br>
+Lample, G.; Ballesteros, M.; Subramanian, S.; Kawakami, K.; Dyer, C.  Neural architectures for named entity  recognition.2016  Conference  of  the  North  American  Chapter  of  the  Association  for  Computational Linguistics: Human Language Technologies, NAACL HLT 2016 
+
+</br> 
+Soares, F.; Villegas, M.; Gonzalez-Agirre, A.; Krallinger, M.; Armengol-Estapé, J. Medical Word Embeddings787for Spanish: Development and Evaluation.  Proceedings of the 2nd Clinical Natural Language Processing788Workshop; Association for Computational Linguistics: Minneapolis, Minnesota, USA, 2019
+<br>
+Lima, S.; Perez, N.; Cuadros, M.; Rigau, G.  NUBES: A Corpus of Negation and Uncertainty in Spanish Clinical Texts 2020.  Proceedings  of  the  Workshop  Computational  Semantics  Beyond  Events  and  Roles,  Valencia,  Spain.
+<br>
+Marimon, M.; Vivaldi, J.; Bel, N.  Annotation of negation in the IULA Spanish Clinical Record Corpus.806Proceedings  of  the  Workshop  Computational  Semantics  Beyond  Events  and  Roles;  Association  for807Computational Linguistics: Valencia, Spain, 2017; pp. 43–52.  doi:10.18653/v1/W17-1807
+<br>
+Devlin, J.; Chang, M.W.; Lee, K.; Toutanova, K. BERT: Pre-training of deep bidirectional transformers for795language understanding.NAACL HLT 2019 - 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies - Proceedings of the Conference 2019
+
