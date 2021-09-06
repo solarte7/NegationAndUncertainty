@@ -11,9 +11,7 @@ The proposed approach explores two deep learning methods to perform negation and
   <ul>
    <li><strong>Embedding layer:</strong> This layer allows the approach to automatically represent text features using dense vector representations. The approach uses two types of embeddings biomedical embeddings and clinical embeddings. Biomedical embeddings for the Spanish language can be download from <a href= "https://zenodo.org/record/3626806#.X_w5mXUzY0Q"> Zenodo. </a> 
    
-    <li> <strong>BiLSTM layer:</strong> this layer captures both left  and right contexts of words to produce a vector representation of text sequences using two steps: A Forward step process the sentence from left to right and, a Backward step process from right to left. 
-   
-      <li> <strong>CRF layer:</strong> this layer uses an implementation of the CRF algorithm to improve the predictions for each label. The CRF algorithm considers correlations between other labels. 
+  
   </ul>
  <li> <strong> Bidirectional Encoder Representation for Transformers (BERT): </strong>  This process consists of three steps: Tokenization, BERT Processing, and Classification \& Post-processing.
 </ul>
