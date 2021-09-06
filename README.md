@@ -17,7 +17,7 @@ The proposed approach uses two deep learning methods to perform negation and spe
   
   </ul>
   </br> </br> </br> </br>
- <li> <strong> Bidirectional Encoder Representation for Transformers (BERT): </strong>  We use the pre-trained BERT model fine-tuning with a classification layer on top.  We use Multilingual BERT as contextualized embedding. This process consists of three steps: Tokenization, BERT Processing, and Classification \& Post-processing. </br> </br> 
+ <li> <strong> Bidirectional Encoder Representation for Transformers (BERT): </strong>  We use the pre-trained BERT model fine-tuning with a classification layer on top.  We use Multilingual BERT as contextualized embedding. This process consists of three steps: Tokenization, BERT Processing, and Classification & Post-processing. </br> </br> 
  <ul>
   <li> <strong>Tokenization:</strong> the goal in this step is to take as input a raw text sentence and tokenize it using a WordPiece Tokenization method . For each word in the sentence, this method decides to keep the whole word or to split it in a set of sub-words. 
    </br> </br> 
@@ -47,8 +47,8 @@ We use three datasets to evaluate the proposed approach for negation and specula
 </br> </br>
 3. Lima, S.; Perez, N.; Cuadros, M.; Rigau, G.  NUBES: A Corpus of Negation and Uncertainty in Spanish Clinical Texts 2020.  Proceedings  of  the  Workshop  Computational  Semantics  Beyond  Events  and  Roles,  Valencia,  Spain.
 </br> </br>
-4. Marimon, M.; Vivaldi, J.; Bel, N.  Annotation of negation in the IULA Spanish Clinical Record Corpus.806Proceedings  of  the  Workshop  Computational  Semantics  
-5. Beyond  Events  and  Roles;  Association  for807Computational Linguistics: Valencia, Spain, 2017; pp. 43–52.  doi:10.18653/v1/W17-1807
+4. Marimon, M.; Vivaldi, J.; Bel, N.  Annotation of negation in the IULA Spanish Clinical Record Corpus. Proceedings  of  the  Workshop  Computational  Semantics  
+Beyond  Events  and  Roles;  Association  for807Computational Linguistics: Valencia, Spain, 2017; pp. 43–52.  doi:10.18653/v1/W17-1807
 </br> </br>
-Devlin, J.; Chang, M.W.; Lee, K.; Toutanova, K. BERT: Pre-training of deep bidirectional transformers for795language understanding.NAACL HLT 2019 - 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies - Proceedings of the Conference 2019
+5. Devlin, J.; Chang, M.W.; Lee, K.; Toutanova, K. BERT: Pre-training of deep bidirectional transformers for795language understanding.NAACL HLT 2019 - 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies - Proceedings of the Conference 2019
 
