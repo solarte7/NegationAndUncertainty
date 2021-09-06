@@ -35,7 +35,7 @@ We use three datasets to evaluate the proposed approach for negation and specula
   
   <li> The IULA corpus is publicly available and can be access from <a href =http://eines.iula.upf.edu/brat/#/NegationOnCR_IULA> http://eines.iula.upf.edu/brat/#/NegationOnCR_IULA<a>
    
-  <li> The cancer dataset is an in-house manually annotated corpus with data from patients treated with lung and breast cancer. This dadatset is available only after an evaluation of the Hospital ethics committee.
+  <li> The cancer dataset is an in-house manually annotated corpus with data from patients treated with lung and breast cancer. This corpus was extracted from  clinical notes of real-life cancer patients data from "Hospital Universitario Puerta de Hierro" in Madrid Spain.This dadatset is not public available, and can be access only after an evaluation of the Hospital ethics committee.
 </ul>
 
 </br> </br>
