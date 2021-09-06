@@ -4,7 +4,7 @@ Speculation and negation detection is commonly divided into two sub-tasks: <stro
 This repository contains a deep learning-based approach for speculation and negation detection from clinical texts written in Spanish. The approach addresses negation and speculation detection as a sequence-labeling task, where each token in a sentence is classified as being part of the cue or the scope. This approach recognizes cues and scopes using the BIO tagging format.
 
 
-This approach performs negation and speculation detection as a sequence labeling task. The proposed approach explores two deep learning methods: 
+The proposed approach explores two deep learning methods to perform negation and speculation detection from clinical text written in Spanish: 
  <ul>
 
  <li> <strong>Bidirectional Long Short memory (BiLSTM): </strong>
