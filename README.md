@@ -4,7 +4,7 @@ Speculation and negation detection is commonly divided into two sub-tasks: <stro
 
 The approach addresses negation and speculation detection as a sequence-labeling task, where each token in a sentence is classified as being part of the cue or the scope. This approach recognizes cues and scopes in a single step using the <strong>BIO</strong> tagging format.<br>
 
-The proposed approach uses two deep learning methods to perform negation and speculation detection from clinical text written in Spanish: BILSTM and BERT.
+The proposed approach uses two deep learning methods to perform negation and speculation detection from clinical text written in Spanish: BILSTM and BERT:
  <ul>
  <li> <strong>Bidirectional Long Short memory (BiLSTM):</strong> The first method that we explore to detect negation and speculation is BILSTM with a CRF layer (BiLSTM-CRF) neural net. This method consist of three layers: Embedding layer, BiLSTM layer, and CRF layer. The directory BiLSTM-based contains the implementation for this method.
   <ul>
