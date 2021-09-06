@@ -30,6 +30,14 @@ The proposed approach explores two deep learning methods to perform negation and
 <h3> Datasets</h3>
 We use three datasets to evaluate the proposed approach for negation and speculation detection. NUBES [3]  and IULA [4] are two public corpus available for the Spanish language, and the third dataset is an in-house annotated corpus with real-life data of cancer patients. 
 
+<ul>
+ <li> The NUBES corpus is available from <a href= https://github.com/Vicomtech/NUBes-negation-uncertainty-biomedical-corpus}>https://github.com/Vicomtech/NUBes-negation-uncertainty-biomedical-corpus <a>
+  
+  <li> The IULA corpus is publicly available and can be access from <a href =http://eines.iula.upf.edu/brat/#/NegationOnCR_IULA> http://eines.iula.upf.edu/brat/#/NegationOnCR_IULA<a>
+   
+  <li> The cancer dataset is an in-house manually annotated corpus with data from patients treated with lung and breast cancer. This dadatset is available only after an evaluation of the Hospital ethics committee.
+</ul>
+
 </br> </br>
 <strong>References:</strong>
 </br> </br>
