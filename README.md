@@ -9,7 +9,7 @@ The proposed approach uses two deep learning methods to perform negation and spe
  <li> <strong>Bidirectional Long Short memory (BiLSTM-CRF):</strong> The first method that we explore to detect negation and speculation is BILSTM with a CRF layer (BiLSTM-CRF) neural net. This method consist of three layers: Embedding layer, BiLSTM layer, and CRF layer. The directory BiLSTM contains the implementation for this method.
   <ul>
    </br>
-    <li><strong> Embedding layer:</strong> We used two types of embeddings: biomedical embeddings and clinical embeddings. Biomedical embeddings for the Spanish language can be download from <a href= "https://zenodo.org/record/3626806#.X_w5mXUzY0Q"> Zenodo. </a> Clinical embeddings can be available only after an evaluation of the Hospital ethics committee.
+    <li><strong> Embedding layer:</strong> We used two types of embeddings: biomedical embeddings and clinical embeddings. Biomedical embeddings for the Spanish language [2] can be download from <a href= "https://zenodo.org/record/3626806#.X_w5mXUzY0Q"> Zenodo. </a> Clinical embeddings can be available only after an evaluation of the Hospital ethics committee.
   </br> </br> 
  <li> <strong> BiLSTM layer:</strong> this layer captures both left  and right contexts of words to produce a vector representation of text sequences using two steps: A Forward step process the sentence from left to right and, a Backward step process from right to left. 
    </br> </br>
