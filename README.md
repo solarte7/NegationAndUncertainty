@@ -17,7 +17,7 @@ The proposed approach uses two deep learning methods to perform negation and spe
   
   </ul>
   </br> </br> 
- <li> <strong> Bidirectional Encoder Representation for Transformers (BERT): </strong>  We use the pre-trained BERT model fine tune with a classification layer on top. We use Multilingual BERT as contextualized embeddings. This process consists of three steps: Tokenization, BERT Processing, and Classification & Post-processing. The directory BERT-based contains the implementation for this method.</br> </br> 
+ <li> <strong> Bidirectional Encoder Representation for Transformers (BERT): </strong>  We use the pre-trained BERT model fine tune with a classification layer on top. We use Multilingual BERT as contextualized embeddings. This process consists of three steps: Tokenization, BERT Processing, and Classification & Post-processing. The directory BERT contains the implementation for this method.</br> </br> 
  <ul>
   <li> <strong>Tokenization:</strong> the goal in this step is to take as input a raw text sentence and tokenize it using a WordPiece Tokenization method . For each word in the sentence, this method decides to keep the whole word or to split it in a set of sub-words. 
    </br> </br> 
