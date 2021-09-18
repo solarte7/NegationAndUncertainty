@@ -40,6 +40,8 @@ We use three datasets to evaluate the proposed approach for negation and specula
   <li> The cancer dataset is an in-house manually annotated corpus with data from patients treated with lung and breast cancer. This corpus was extracted from  clinical notes of real-life cancer patients data from "Hospital Universitario Puerta de Hierro" in Madrid Spain. This datatset is not public available, and can be access only after an evaluation of the Hospital ethics committee. This dataset is affected by General Data Protection Regulation (GDPR).
 </ul>
 
+<h3> Validating </h3>
+This directory contains scripts for loading trained  models on the NUBES corpus and then, predict negation and speculation  in  a different dataset. This code can be used to validate text sentences or to validate a complete dataset such as the Cancer dataset. 
 
 </br> </br>
 <strong>References:</strong>
