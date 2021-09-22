@@ -1,4 +1,4 @@
-# Negation And Speculation Detection from clinical text written in Spanish: A deep learnign approach
+# Negation And Speculation Detection from clinical text written in Spanish: A deep learning approach
 This repository contains a deep learning-based approach for speculation and negation detection from clinical texts written in Spanish. 
 Speculation and negation detection is commonly divided into two sub-tasks: <strong>cue identification</strong> and <strong>scope recognition </strong>. Cues are words or terms that express negation (e.g, not, nothing, negative) or speculation (e.g., possible, probable, suggest). The scope is the text fragment affected by the corresponding cue in a sentence.<br>
 
