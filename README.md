@@ -32,7 +32,8 @@ We use three datasets to evaluate the proposed approach for negation and specula
  </br> </br> 
 
 <ul>
- <li> The NUBES corpus is available from <a href= https://github.com/Vicomtech/NUBes-negation-uncertainty-biomedical-corpus}>https://github.com/Vicomtech/NUBes-negation-uncertainty-biomedical-corpus <a>
+ <li> The NUBES corpus is available from <a href= https://github.com/Vicomtech/NUBes-negation-uncertainty-biomedical-corpus}> https://github.com/Vicomtech/NUBes-negation-uncertainty-biomedical-corpus </a>
+  
    </br> </br> 
   
   <li> The IULA corpus is publicly available and can be access from <a href =http://eines.iula.upf.edu/brat/#/NegationOnCR_IULA> http://eines.iula.upf.edu/brat/#/NegationOnCR_IULA<a>
