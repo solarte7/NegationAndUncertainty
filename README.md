@@ -32,7 +32,7 @@ We use three datasets to evaluate the proposed approach for negation and specula
  </br> </br> 
 
 <ul>
- <li> The NUBES corpus is available from <a href= https://github.com/Vicomtech/NUBes-negation-uncertainty-biomedical-corpus}>https://github.com/Vicomtech/NUBes-negation-uncertainty-biomedical-corpus</a>
+ <li> The NUBES corpus is available from <a href= https://github.com/Vicomtech/NUBes-negation-uncertainty-biomedical-corpus></a>
   
    </br> </br> 
   
