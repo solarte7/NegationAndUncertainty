@@ -40,7 +40,7 @@ We use three datasets to evaluate the proposed approach for negation and specula
 </ul>
 
 <h3> Pre-processing </h3>
-The datasets previously described must be pre-processed before being used in training the BiLSTM and BERT-based models. We provide the code that pre-processes the datasets and transforms them into inputs for training the models. This code can be found y the Pre-processing directory.
+The datasets previously described are pre-processed before being used in training the BiLSTM and BERT-based models. We provide scripts that pre-processes the datasets (See Pre-processing directory). These scrips takes BIO files as input and pre-process them before training BiLSTM and BERT-based models.
 
 
 <h3> Validation </h3>
