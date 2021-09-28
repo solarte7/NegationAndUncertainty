@@ -9,7 +9,7 @@ The approach uses two deep learning methods to perform negation and speculation 
  <li> <strong>Bidirectional Long Short memory (BiLSTM-CRF):</strong> This method consist of three layers: Embedding layer, BiLSTM layer, and CRF layer. The directory BiLSTM contains the implementation for this method.
   <ul>
    </br>
-    <li><strong> Embeddings</strong> We used two types of embeddings: biomedical embeddings and clinical embeddings. Biomedical embeddings for the Spanish language [2] can be download from <a href= "https://zenodo.org/record/3626806#.X_w5mXUzY0Q"> Zenodo. </a> Clinical embeddings were trined with more 1 million of clinical notes of two public hospitals in Spain and Colombia. Clinical embeddings can be available only after an evaluation of the Hospital ethics committee.
+    <li><strong> Embeddings</strong> We used two types of embeddings: biomedical embeddings and clinical embeddings. Biomedical embeddings for the Spanish language [2] can be download from <a href= "https://zenodo.org/record/3626806#.X_w5mXUzY0Q"> Zenodo. </a> Clinical embeddings were trined with more than 1 million of clinical notes of two public hospitals in Spain and Colombia. Clinical embeddings can be available only after an evaluation of the Hospital ethics committee.
   
   </ul>
   </br> </br> 
