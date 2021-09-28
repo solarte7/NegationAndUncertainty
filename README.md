@@ -47,7 +47,7 @@ The datasets previously described must be pre-processed before being used in tra
 This directory contains scripts for loading trained  models on the NUBES corpus, and perform negation and speculation  detetection in a different dataset. This code can be used to validate text sentences or to validate a complete dataset such as the Cancer dataset. 
 
 <h3> Contact </h3>
-If you have any question or suggestion, please contact us at the following email addresses:<b>oswaldo.solartep@alumnos.upm.es</b>
+If you have any question or suggestion, please contact us at the following email address: <b>oswaldo.solartep@alumnos.upm.es</b>
 
 </br> </br>
 <strong>References:</strong>
