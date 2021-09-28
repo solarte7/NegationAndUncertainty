@@ -42,6 +42,9 @@ We use three datasets to evaluate the proposed approach for negation and specula
 <h3> Validation </h3>
 This directory contains scripts for loading trained  models on the NUBES corpus, and perform negation and speculation  detetection in a different dataset. This code can be used to validate text sentences or to validate a complete dataset such as the Cancer dataset. 
 
+<h3> Pre-processing </h3>
+The datasets previously described must be pre-processed before being used in training the BiLSTM and BERT-based models. We provide the code that pre-processes the datasets and converts them to a suitable format to be used in model training This code can be found y the Pre-processing directory.
+
 </br> </br>
 <strong>References:</strong>
 </br> </br>
