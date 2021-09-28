@@ -1,10 +1,10 @@
 # Negation And Speculation Detection from clinical texts written in Spanish: A deep learning approach
 This repository contains a deep learning-based approach for speculation and negation detection from clinical texts written in Spanish. 
-Speculation and negation detection is commonly divided into two sub-tasks: <strong>cue identification</strong> and <strong>scope recognition </strong>. Cues are words or terms that express negation (e.g, not, nothing, negative) or speculation (e.g., possible, probable, suggest). The scope is the text fragment affected by the corresponding cue in a sentence.<br>
-
+Speculation and negation detection is commonly divided into two sub-tasks: <strong>cue identification</strong> and <strong>scope recognition </strong>. 
 The approach addresses negation and speculation detection as a sequence-labeling task, where each token in a sentence is classified as being part of the cue or the scope. This approach recognizes cues and scopes in a single step using the <strong>BIO</strong> tagging format.<br>
 
-The proposed approach uses two deep learning methods to perform negation and speculation detection from clinical text written in Spanish: BILSTM and BERT:
+<h3>Methods <h3>
+The approach uses two deep learning methods to perform negation and speculation detection from clinical text written in Spanish: BILSTM and BERT:
  <ul>
  <li> <strong>Bidirectional Long Short memory (BiLSTM-CRF):</strong> This method consist of three layers: Embedding layer, BiLSTM layer, and CRF layer. The directory BiLSTM contains the implementation for this method.
   <ul>
@@ -27,7 +27,7 @@ The proposed approach uses two deep learning methods to perform negation and spe
  </ul>
 </ul>
 </br> </br>
-<h3> Datasets</h3>
+<h3>Datasets</h3>
 We use three datasets to evaluate the proposed approach for negation and speculation detection. NUBES [3]  and IULA [4] are two public corpus available for the Spanish language, and the third dataset is an in-house annotated corpus with real-life data of cancer patients. 
  </br> </br> 
 
