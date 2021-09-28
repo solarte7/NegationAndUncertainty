@@ -9,22 +9,12 @@ The approach uses two deep learning methods to perform negation and speculation 
  <li> <strong>Bidirectional Long Short memory (BiLSTM-CRF):</strong> This method consist of three layers: Embedding layer, BiLSTM layer, and CRF layer. The directory BiLSTM contains the implementation for this method.
   <ul>
    </br>
-    <li><strong> Embedding layer:</strong> We used two types of embeddings: biomedical embeddings and clinical embeddings. Biomedical embeddings for the Spanish language [2] can be download from <a href= "https://zenodo.org/record/3626806#.X_w5mXUzY0Q"> Zenodo. </a> Clinical embeddings can be available only after an evaluation of the Hospital ethics committee.
-  </br> </br> 
- <li> <strong> BiLSTM layer:</strong> this layer captures both left  and right contexts of words to produce a vector representation of text sequences using two steps: A Forward step process the sentence from left to right and, a Backward step process from right to left. 
-   </br> </br>
-  <li> <strong> CRF layer:</strong> this layer uses an implementation of the CRF algorithm to improve the predictions for each label. The CRF algorithm considers correlations between other labels. 
+    <li><strong> Embeddings</strong> We used two types of embeddings: biomedical embeddings and clinical embeddings. Biomedical embeddings for the Spanish language [2] can be download from <a href= "https://zenodo.org/record/3626806#.X_w5mXUzY0Q"> Zenodo. </a> Clinical embeddings can be available only after an evaluation of the Hospital ethics committee.
   
   </ul>
   </br> </br> 
  <li> <strong> Bidirectional Encoder Representation for Transformers (BERT): </strong>  We use the pre-trained BERT model fine tune with a classification layer on top. We use Multilingual BERT as contextualized embeddings. This process consists of three steps: Tokenization, BERT Processing, and Classification & Post-processing. The directory BERT contains the implementation for this method.</br> </br> 
- <ul>
-  <li> <strong>Tokenization:</strong> the goal in this step is to take as input a raw text sentence and tokenize it using a WordPiece Tokenization method . For each word in the sentence, this method decides to keep the whole word or to split it in a set of sub-words. 
-   </br> </br> 
-  <li> <strong> BERT Processing:</strong> In this step, the approach takes as input the tokenized sentence from the previous step and process it as follows: First, the approach obtains an embedding representation for each word in the sentence. Next, the BERT Transformer Block takes as input the embedding representation , and produces a final representation  for each word in the processed sentence. 
- </br> </br> 
- <li><strong>Classification & Post-Processing:</strong> In this step, the approach takes as input the predicted BERT representations  and fed them into the softmax function.
- </ul>
+  </ul>
 </ul>
 </br> </br>
 <h3>Datasets</h3>
