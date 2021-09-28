@@ -40,7 +40,7 @@ We use three datasets to evaluate the proposed approach for negation and specula
 </ul>
 
 <h3> Pre-processing </h3>
-The datasets previously described must be pre-processed before being used in training the BiLSTM and BERT-based models. We provide the code that pre-processes the datasets and transform them into inputs for training the models. This code can be found y the Pre-processing directory.
+The datasets previously described must be pre-processed before being used in training the BiLSTM and BERT-based models. We provide the code that pre-processes the datasets and transforms them into inputs for training the models. This code can be found y the Pre-processing directory.
 
 
 <h3> Validation </h3>
@@ -49,7 +49,7 @@ This directory contains scripts for loading trained  models on the NUBES corpus,
 <h3> Contact </h3>
 If you have any question or suggestion, please contact us at the following email addresses:
 <br>
-<br>oswaldo.solartep@alumnos.upm.es</br>
+<b>oswaldo.solartep@alumnos.upm.es</b>
 
 </br> </br>
 <strong>References:</strong>
