@@ -1,10 +1,10 @@
 # Negation And Uncertainty Detection from clinical texts written in Spanish: A deep learning approach
-This repository contains a deep learning-based approach for speculation and negation detection from clinical texts written in Spanish. 
-Speculation and negation detection is commonly divided into two sub-tasks: <strong>cue identification</strong> and <strong>scope recognition </strong>. 
-The approach addresses negation and speculation detection as a sequence-labeling task, where each token in a sentence is classified as being part of the cue or the scope. This approach recognizes cues and scopes in a single step using the <strong>BIO</strong> tagging format.<br>
+This repository contains a deep learning-based approach for uncertainty and negation detection from clinical texts written in Spanish. 
+Uncertainty and negation detection is commonly divided into two sub-tasks: <strong>cue identification</strong> and <strong>scope recognition </strong>. 
+The approach addresses negation and uncertainty detection as a sequence-labeling task, where each token in a sentence is classified as being part of the cue or the scope. This approach recognizes cues and scopes in a single step using the <strong>BIO</strong> tagging format.<br>
 
 <h3>Methods </h3>
-The approach uses two deep learning methods to perform negation and speculation detection from clinical text written in Spanish: BILSTM and BERT:
+The approach uses two deep learning methods to perform negation and uncertainy detection from clinical text written in Spanish: BILSTM and BERT:
  <ul>
  <li> <strong>Bidirectional Long Short memory (BiLSTM-CRF):</strong> This method consist of three layers: Embedding layer, BiLSTM layer, and CRF layer. The directory BiLSTM contains the implementation for this method.
   <ul>
@@ -18,7 +18,7 @@ The approach uses two deep learning methods to perform negation and speculation 
 </ul>
 </br> </br>
 <h3>Datasets</h3>
-We use three datasets to evaluate the proposed approach for negation and speculation detection. NUBES [3]  and IULA [4] are two public corpus available for the Spanish language, and the third dataset is an in-house annotated corpus with real-life data of cancer patients. 
+We use three datasets to evaluate the proposed approach for negation and uncertainty detection. NUBES [3]  and IULA [4] are two public corpus available for the Spanish language, and the third dataset is an in-house annotated corpus with real-life data of cancer patients. 
  </br> </br> 
 
 <ul>
@@ -34,7 +34,7 @@ The datasets previously described are pre-processed before being used in trainin
 
 
 <h3> Validation </h3>
-This directory contains scripts for loading trained  models on the NUBES corpus, and perform negation and speculation  detetection in a different dataset. This code can be used to validate text sentences or to validate a complete dataset such as the Cancer dataset. 
+This directory contains scripts for loading trained  models on the NUBES corpus, and perform negation and uncertainty  detetection in a different dataset. This code can be used to validate text sentences or to validate a complete dataset such as the Cancer dataset. 
 
 <h3> Contact </h3>
 If you have any question or suggestion, please contact us at the following email address: <b>oswaldo.solartep@alumnos.upm.es</b>
