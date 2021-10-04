@@ -16,7 +16,7 @@ The approach uses two deep learning methods to perform negation and uncertainy d
  <li> <strong> Bidirectional Encoder Representation for Transformers (BERT): </strong>  We use the pre-trained BERT model fine tune with a classification layer on top. We use Multilingual BERT as contextualized embeddings. This process consists of three steps: Tokenization, BERT Processing, and Classification & Post-processing. The directory BERT contains the implementation for this method.</br> </br> 
   </ul>
 </ul>
-</br> </br>
+</br> 
 <h3>Datasets</h3>
 We use three datasets to evaluate the proposed approach for negation and uncertainty detection. NUBES [3]  and IULA [4] are two public corpus available for the Spanish language, and the third dataset is an in-house annotated corpus with real-life data of cancer patients. 
  </br> </br> 
