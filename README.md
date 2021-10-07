@@ -30,11 +30,10 @@ We use three datasets to evaluate the proposed approach for negation and uncerta
 </ul>
 
 <h3> Pre-processing </h3>
-The datasets previously described are pre-processed before being used in training the BiLSTM and BERT-based models. We provide scripts that pre-processes the datasets (See Pre-processing directory). These scrips take BIO files as input and pre-process them before training BiLSTM and BERT-based models.
-
+The datasets previously described are pre-processed before being used  the BiLSTM and BERT-based models. We provide scripts that pre-processes the datasets (See Pre-processing directory). 
 
 <h3> Validation </h3>
-This directory contains scripts for loading trained  models on the NUBES corpus, and perform negation and uncertainty  detetection in a different dataset. This code can be used to validate text sentences or to validate a complete dataset such as the Cancer dataset. 
+This directory contains scripts for loading trained  models on the NUBES corpus, and perform negation and uncertainty  detetection in a different dataset. This code can be used to validate sentence by  sentence or to validate a complete dataset such as the Cancer dataset. 
 
 <h3> Contact </h3>
 If you have any question or suggestion, please contact us at the following email address: <b>oswaldo.solartep@alumnos.upm.es</b>
