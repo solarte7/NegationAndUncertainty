@@ -19,5 +19,6 @@ Validating the Cancer dataset:
 
 4) -  Valitation_BERT: This script allows us to load a trainebasd BERT-based model and validate a complete dataset. 
       This script automatically calculate performed metrics.
+      
             
  Please contact us via email to obtain this dataset. (oswaldo.solartep@alumnos.upm.es)
