@@ -1,5 +1,5 @@
 
-In this direcory must be placed the pre-processed files. If you used the NUBES corpus, the following files must be placed in this directory:
+In this direcory must be placed the pre-processed files. For instance, if you used the NUBES corpus, the following files must be placed in this directory:
 
 1) index2tag.npy
 2) tag2index.npy
