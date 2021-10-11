@@ -4,7 +4,7 @@ Validating the Cancer dataset:
 
 
 1) To perform Validation,  we used trained models with the NUBES corpus.
-   These models can be downloaded from this link: 
+   These models can be downloaded from this link (Please access to the "saved-models" directory): 
    https://drive.google.com/drive/folders/1ZWcNMXx876Vu28Kr39ZVFGDh3MiAVBcR?usp=sharing
 
 2) Four Python notebooks are provided in this directory to perform validation:
