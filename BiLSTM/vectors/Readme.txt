@@ -1,3 +1,4 @@
+
 In this direcory must be placed the pre-processed files. The following files must be placed in this directory:
 
 1) index2tag.npy
