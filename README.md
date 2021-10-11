@@ -1,6 +1,5 @@
 # Negation And Uncertainty Detection from clinical texts written in Spanish: A deep learning approach
 This repository contains a deep learning-based approach for uncertainty and negation detection from clinical texts written in Spanish. 
-Uncertainty and negation detection is commonly divided into two sub-tasks: <strong>cue identification</strong> and <strong>scope recognition </strong>. 
 The approach addresses negation and uncertainty detection as a sequence-labeling task, where each token in a sentence is classified as being part of the cue or the scope. This approach recognizes cues and scopes in a single step using the <strong>BIO</strong> tagging format.<br>
 
 <h3>Methods </h3>
