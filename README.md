@@ -25,7 +25,7 @@ We use three datasets to evaluate the proposed approach for negation and uncerta
   </br> </br>      
   <li> The IULA corpus is publicly available and can be access from <a href =http://eines.iula.upf.edu/brat/#/NegationOnCR_IULA> http://eines.iula.upf.edu/brat/#/NegationOnCR_IULA<a>
   </br> </br>   
-  <li> The cancer dataset is an in-house manually annotated corpus with data from patients treated with lung and breast cancer. This corpus was extracted from clinical notes of real-life cancer patients' data from "Hospital Universitario Puerta de Hierro" in Madrid Spain. This dataset is not publicly available and can be accessed only after an evaluation of the Hospital ethics committee. This dataset is affected by General Data Protection Regulation (GDPR). To obtain this dataset please contac us in the email: oswaldo.solartep@alumnos.upm.es
+  <li> The cancer dataset is an in-house manually annotated corpus with data from patients treated with lung and breast cancer. This corpus was extracted from clinical notes of real-life cancer patients' data from "Hospital Universitario Puerta de Hierro" in Madrid Spain. This dataset is not publicly available and can be accessed only after an evaluation of the Hospital ethics committee. This dataset is affected by General Data Protection Regulation (GDPR). To obtain this dataset please contac us in this email: oswaldo.solartep@alumnos.upm.es
 </ul>
 
 <h3> Pre-processing </h3>
