@@ -2,7 +2,7 @@
 Negation and Uncertainty detection using BiLSTM-CRF
 =======================================================
 
-1) The BiLSTM-CRF.ipynb file requires Tensorflow 2.0 and Keras before being executed.
+1) The BiLSTM-CRF models requires Tensorflow 2.0 and Keras before being executed.
 
 2) The directory libs contains an implementation of the CRF layer.
 
