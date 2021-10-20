@@ -21,4 +21,4 @@ Validating the Cancer dataset:
       This script automatically calculate performed metrics.
       
             
- *** Please contact us via email to obtain the cancer dataset. (oswaldo.solartep@alumnos.upm.es)
+ 
