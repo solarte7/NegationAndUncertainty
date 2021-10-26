@@ -23,11 +23,11 @@ We use three datasets to evaluate the proposed approach for negation and uncerta
   </br> </br>      
   <li> The IULA corpus is publicly available and can be access from <a href =http://eines.iula.upf.edu/brat/#/NegationOnCR_IULA> http://eines.iula.upf.edu/brat/#/NegationOnCR_IULA<a>
   </br> </br>   
-  <li> The cancer dataset is an in-house manually annotated corpus with data from patients treated with lung and breast cancer. This corpus was extracted from clinical notes of real-life cancer patients' data from "Hospital Universitario Puerta de Hierro" in Madrid Spain. This dataset can be accessed after an evaluation of the Hospital ethics committee. This dataset is affected by General Data Protection Regulation (GDPR). 
+  <li> The cancer dataset is an in-house manually annotated corpus with data from patients treated with lung and breast cancer. This dataset was used only for validating purposes. This dataset is affected by General Data Protection Regulation (GDPR). The Cancer dataset is available ``upon request''. This dataset can be accessible after an evaluation by the hospital's ethics committee.
 </ul>
 
-<h3> TrainedModels </h3>
-We provide trained models on the NUBES corpus which can be used to perform Negation and Uncertainty detection. The directory "trained_models" contains instructions for using these models. Trained models can be used to integrate in  medical text mining applications or to perform a real-life study cases with clinical notes written in Spanish.
+<h3> Trained Models </h3>
+We provide trained models on the NUBES corpus which can be used to perform Negation and Uncertainty detection. The directory "trained_models" contains instructions for using these models. Trained models can be used to integrate them into medical text mining applications or to perform real-life study cases with clinical notes written in Spanish.
 
 <h3> Pre-processing </h3>
 The datasets previously described are pre-processed before being used  the BiLSTM and BERT-based models. We provide scripts that pre-processes the datasets (See Pre-processing directory). 
