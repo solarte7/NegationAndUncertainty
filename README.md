@@ -1,15 +1,12 @@
 # Negation And Uncertainty Detection in clinical texts written in Spanish: A deep learning-based approach
 This repository contains a deep learning-based approach for uncertainty and negation detection from clinical texts written in Spanish. 
-The approach addresses negation and uncertainty detection as a sequence-labeling task, where each token in a sentence is classified as being part of the cue or the scope. This approach recognizes cues and scopes in a single step using the <strong>BIO</strong> tagging format.<br>
-
-Below is a brief description for each directory in this repository.
 <h3>METHODS </h3>
 The approach uses two deep learning methods to perform negation and uncertainy detection from clinical text written in Spanish: BILSTM and BERT:
  <ul>
  <li> <strong>Bidirectional Long Short memory (BiLSTM-CRF):</strong> This method consist of three layers: Embedding layer, BiLSTM layer, and CRF layer. The directory BiLSTM contains the implementation for this method.
   <ul>
    </br>
-    <li><strong> Embeddings</strong> We used two types of embeddings: biomedical embeddings and clinical embeddings. Biomedical embeddings for the Spanish language [2] can be download from <a href= "https://zenodo.org/record/3626806#.X_w5mXUzY0Q"> Zenodo. </a> Clinical embeddings were trined with more than 1 million of clinical notes of two public hospitals in Spain and Colombia. Clinical embeddings can be available only after an evaluation of the Hospital ethics committee.
+    <li><strong> Embeddings</strong> We used two types of embeddings: biomedical embeddings and clinical embeddings. Biomedical embeddings for the Spanish language [2] can be download from <a href= "https://zenodo.org/record/3626806#.X_w5mXUzY0Q"> Zenodo. </a> Clinical embeddings were trained with more than 1 million of clinical notes of two public hospitals in Spain and Colombia. Clinical embeddings can be available only after an evaluation of the Hospital ethics committee.
   
   </ul>
   </br> </br> 
@@ -28,6 +25,9 @@ We use three datasets to evaluate the proposed approach for negation and uncerta
   </br> </br>   
   <li> The cancer dataset is an in-house manually annotated corpus with data from patients treated with lung and breast cancer. This corpus was extracted from clinical notes of real-life cancer patients' data from "Hospital Universitario Puerta de Hierro" in Madrid Spain. This dataset can be accessed after an evaluation of the Hospital ethics committee. This dataset is affected by General Data Protection Regulation (GDPR). 
 </ul>
+
+<h3> TrainedModels </h3>
+We provide trained models on the NUBES corpus which can be used to perform Negation and Uncertainty detection. The directory "trained_models" contains instructions for using these models. Trained models can be used to integrate in  medical text mining applications or to perform a real-life study cases with clinical notes written in Spanish.
 
 <h3> Pre-processing </h3>
 The datasets previously described are pre-processed before being used  the BiLSTM and BERT-based models. We provide scripts that pre-processes the datasets (See Pre-processing directory). 
