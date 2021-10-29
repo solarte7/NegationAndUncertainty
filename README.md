@@ -6,7 +6,7 @@ The approach explores two deep learning methods to perform negation and uncertai
  <li> <strong>Bidirectional Long Short memory (BiLSTM-CRF):</strong> This method consist of three layers: Embedding layer, BiLSTM layer, and CRF layer. The directory "BiLSTM" contains the implementation for this method.
   <ul>
    </br>
-    <li><strong> Embeddings</strong> We used two types of embeddings: biomedical embeddings and clinical embeddings. Biomedical embeddings for the Spanish language [2] can be download from <a href= "https://zenodo.org/record/3626806#.X_w5mXUzY0Q"> Zenodo. </a> Clinical embeddings were trained with more than 1 million of clinical notes of two public hospitals in Spain and Colombia. Clinical embeddings can be available only after an evaluation of the Hospital ethics committee.
+    <li><strong> Embeddings</strong> We used two types of embeddings: biomedical embeddings and clinical embeddings. Biomedical embeddings for the Spanish language [2] can be download from <a href= "https://zenodo.org/record/3626806#.X_w5mXUzY0Q"> Zenodo. </a> Clinical embeddings were trained with more than 1 million of clinical notes of two public hospitals in Spain and Colombia. Clinical embeddings can be available only after an evaluation of the hospital's ethics committee
   
   </ul>
   </br> 
@@ -23,7 +23,7 @@ We use three datasets to evaluate the proposed approach for negation and uncerta
   </br> </br>      
   <li> The IULA corpus is publicly available and can be access from <a href =http://eines.iula.upf.edu/brat/#/NegationOnCR_IULA> http://eines.iula.upf.edu/brat/#/NegationOnCR_IULA<a>
   </br> </br>   
-  <li> The cancer dataset is an in-house manually annotated corpus with data from patients treated with lung and breast cancer. This dataset was used only for validation purposes. This dataset is affected by General Data Protection Regulation (GDPR). The Cancer dataset is available ``upon request''. This dataset can be accessible after an evaluation by the hospital's ethics committee.
+  <li> The cancer dataset is an in-house manually annotated corpus with data from patients treated with lung and breast cancer. This dataset was used only for validation purposes. This dataset is affected by General Data Protection Regulation (GDPR). The Cancer dataset is available "upon request". This dataset can be accessible after an evaluation by the hospital's ethics committee.
 </ul>
 
 <h3> Trained Models </h3>
