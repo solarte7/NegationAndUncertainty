@@ -15,7 +15,7 @@ The approach explores two deep learning methods to perform negation and uncertai
 </ul>
  
 <h3>Datasets</h3>
-We use three datasets to evaluate the proposed approach for negation and uncertainty detection. NUBES [3]  and IULA [4] are two public corpus available for the Spanish language, and the third dataset is an in-house annotated corpus with real-life data of cancer patients. 
+We use three datasets to evaluate the proposed approach for negation and uncertainty detection. NUBES [3]  and IULA [4] are two public corpora available for the Spanish language, and the third dataset is an in-house annotated corpus with real-life data of cancer patients. 
  </br> </br> 
 
 <ul>
