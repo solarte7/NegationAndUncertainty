@@ -1,7 +1,7 @@
 # Negation And Uncertainty Detection in clinical texts written in Spanish: A deep learning-based approach
 This repository contains a deep learning-based approach for uncertainty and negation detection from clinical texts written in Spanish. 
 <h3>METHODS </h3>
-The approach uses two deep learning methods to perform negation and uncertainy detection from clinical text written in Spanish: BILSTM and BERT:
+The approach explores two deep learning methods to perform negation and uncertainy detection from clinical text written in Spanish: BILSTM and BERT:
  <ul>
  <li> <strong>Bidirectional Long Short memory (BiLSTM-CRF):</strong> This method consist of three layers: Embedding layer, BiLSTM layer, and CRF layer. The directory "BiLSTM" contains the implementation for this method.
   <ul>
