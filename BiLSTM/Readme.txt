@@ -6,7 +6,7 @@ Negation and Uncertainty detection using BiLSTM-CRF
 
 2) The directory libs contains an implementation of the CRF layer.
 
-3) Before using this script, the training corpus must be pre-processed using scripts from the Preprocessing directory. 
+3) Before using these scripts, the training corpus must be pre-processed using scripts from the Preprocessing directory. 
 
    
 4) Word embeddings must be obtained before using the BiLSTM-CRF model,  as follow:
