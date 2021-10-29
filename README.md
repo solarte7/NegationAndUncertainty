@@ -27,7 +27,9 @@ We use three datasets to evaluate the proposed approach for negation and uncerta
 </ul>
 
 <h3> Trained Models </h3>
-We provide trained models on the NUBES corpus which can be used to perform Negation and Uncertainty detection. The directory "trained_models" contains instructions for using these models. Trained models can be used to integrate them into medical text mining applications or to perform real-life study cases with clinical notes written in Spanish.
+We provide trained models on the NUBES corpus which can be used to exploit, to evaluate or to integrate them into medical text mining applications. The directory "trained_models" contains instructions for using these models. <br>
+
+Trained models can also be used to perform real-life study cases with clinical notes written in Spanish.
 </br> </br> 
 
 <h3> Pre-processing </h3>
