@@ -24,7 +24,7 @@ Validating the Cancer dataset:
 
       -  loadBERT.ipynb: This script allows us to load a trained BERT-based model and validate a set of sentences.
 
-      -  Validation_BERT.ipynb: This script allows us to load a trained BERT-based model and validate a complete dataset... 
+      -  Validation_BERT.ipynb: This script allows us to load a trained BERT-based model and validate a complete dataset.
       
       
             
