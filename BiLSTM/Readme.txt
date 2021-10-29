@@ -13,4 +13,4 @@ Negation and Uncertainty detection using BiLSTM-CRF
    - Biomedical embeddings can be downloaded from: https://zenodo.org/record/3626806#.X_w5mXUzY0Q
    
    - Clinical embeddings can be obtained after authorization of the hospital's ethics committee. 
-     Please contact us (via email) to obtain Clinical embeddings ==> oswaldo.solartep@alumnos.upm.es
+     
