@@ -9,7 +9,7 @@ These models can be downloaded from this link:
 https://drive.google.com/drive/folders/1MtE-MGCiUbDIpoW3nKKCZNQWn8IFaxaf?usp=sharing
 
 
-You can use the scripts <i>"loadBiLSTM-CRF.ipynb" and "loadBERT.ipynb"</i> to evaluate and exploit these models. These files are found in the validation directory.
+You can use the scripts "loadBiLSTM-CRF.ipynb" and "loadBERT.ipynb"  to evaluate and exploit these models. These files are found in the validation directory.
 
 
 
