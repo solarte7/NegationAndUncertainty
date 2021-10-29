@@ -3,14 +3,14 @@ This repository contains a deep learning-based approach for uncertainty and nega
 <h3>METHODS </h3>
 The approach uses two deep learning methods to perform negation and uncertainy detection from clinical text written in Spanish: BILSTM and BERT:
  <ul>
- <li> <strong>Bidirectional Long Short memory (BiLSTM-CRF):</strong> This method consist of three layers: Embedding layer, BiLSTM layer, and CRF layer. The directory BiLSTM contains the implementation for this method.
+ <li> <strong>Bidirectional Long Short memory (BiLSTM-CRF):</strong> This method consist of three layers: Embedding layer, BiLSTM layer, and CRF layer. The directory "BiLSTM" contains the implementation for this method.
   <ul>
    </br>
     <li><strong> Embeddings</strong> We used two types of embeddings: biomedical embeddings and clinical embeddings. Biomedical embeddings for the Spanish language [2] can be download from <a href= "https://zenodo.org/record/3626806#.X_w5mXUzY0Q"> Zenodo. </a> Clinical embeddings were trained with more than 1 million of clinical notes of two public hospitals in Spain and Colombia. Clinical embeddings can be available only after an evaluation of the Hospital ethics committee.
   
   </ul>
   </br> 
- <li> <strong> Bidirectional Encoder Representation for Transformers (BERT): </strong>  We use the pre-trained BERT model fine tune with a classification layer on top. We use Multilingual BERT as contextualized embeddings. This process consists of three steps: Tokenization, BERT Processing, and Classification & Post-processing. The directory BERT contains the implementation for this method.</br> </br> 
+ <li> <strong> Bidirectional Encoder Representation for Transformers (BERT): </strong>  We use the pre-trained BERT model fine tune with a classification layer on top. We use Multilingual BERT as contextualized embeddings. The directory "BERT" contains the implementation for this method.</br> </br> 
   </ul>
 </ul>
  
