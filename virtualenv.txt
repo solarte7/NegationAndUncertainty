@@ -13,4 +13,10 @@ pip freeze > requirements.txt
 Python 3
 
 python3 -m venv my_env
-source my_env/bin/activate  
+source my_env/bin/activate 
+
+=======================================
+Modifición en octubre  14 de 2026 
+XXXX
+
+========================================
