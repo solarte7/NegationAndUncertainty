@@ -39,7 +39,7 @@ The datasets previously described are pre-processed before being used  the BiLST
 This directory contains scripts for loading trained  models on the NUBES corpus, and perform negation and uncertainty  detetection in a different dataset. This code can be used to validate sentence by  sentence or to validate a complete dataset such as the Cancer dataset. 
 
 <h3> Contact </h3>
-If you have any question or suggestion, please contact us at the following email address: <b>oswaldo.solartep@alumnos.upm.es</b>
+If you have any question or suggestion, please contact us at the following email address: <b>oswaldo.solartep@alumnos.upm.es or solarte7@gmail.com</b>
 
 </br> </br>
 <strong>References:</strong>
